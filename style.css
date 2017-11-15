@@ -1,59 +1,94 @@
-.head {
-    background-image: url(105403c73b311542561f0eb2595b5824.jpg);
-    height: 550px;
-    width: 1550px;
-    box-sizing: border-box;
-    display: flex;
-    
+body {
+    margin: 0;
 }
+
+.main {
+    height: 1200px;
+    background-image: url(maxresdefault-4.jpg);
+    background-size: 100% 100%;
+}
+
+.main_menu_item {
+    color: #be1e2d;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 13px 0 17px;
+    margin-left: 37px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.header {
+    padding-top: 50px;
+    position: relative;
+    line-height: 1;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 150px;
+
+}
+
 .logo {
-    background: #D82734;
-    width: 110px;
-    height: 110px;
-    padding-left: 18px;
-    padding-top: 20px;
-    box-sizing: border-box;
-    margin-left: 80px;
+    text-align: center;
+    display: block;
+    margin: 100px auto 50px;
 }
-p {
-    font-family: arial;
-    font-size: 17px;
-    color: white;
-    margin-left: 25px;
+
+.order_now {
+    display: inline-block;
+    text-decoration: none;
+    height: 40px;
+    width: 220px;
+    margin-left: 200px;
+    right: 0;
+    text-align: center;
+    padding-top: 13px;
+    background: #be1e2d;
+    color: #fff;
+    font-size: 20px;
 }
-.parent {
-    padding-top: 20px;
-    display: flex;
+
+.content {
+    font-size: 28px;
+    padding: 10px 0;
+    text-align: center;
 }
-p:hover {
-    color: red;
-    transition: 0.2s
+
+.content h1 {
+    font-size: 20px;
 }
-.img {
-    height: 30px;
-    width: 30px;
-    color: white;
-    margin-left: 10px;
+
+.content a {
+    text-decoration: none;
+    color: #be1e2d;
+    text-decoration: underline;
 }
-.loup {
-    padding-top: 8px;
-    padding-left: 30px;
-}
-.button_white {
-    border: none;
-    border-radius: 10px;
-    background: white;
-    color: black;
-    height: 30px;
-    margin-top: 30px;
-    width: 50px;
+.video{
+    width: 570px;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-.button_black {
-    color: white;
-    height: 30px;
-    margin-top: 30px;
-    width: 50px;
-    border: none;
-    background: none;
+.video iframe{
+    width: 560px;
+    height: 315px;
+}
+.footer{
+    padding-top: 50px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 300px;
+}
+.footer_block{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.footer_block p{
+    margin-top: 11px;
+    margin-right: 6px;
+    vertical-align: top;
+    display: inline-block;
 }
