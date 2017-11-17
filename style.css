@@ -3,8 +3,8 @@ body {
 }
 
 .main {
-    height: 1200px;
-    background-image: url(maxresdefault-4.jpg);
+    height: 1000px;
+    background-image: url(The-Wild-Eight.jpg);
     background-size: 100% 100%;
 }
 
@@ -25,7 +25,6 @@ body {
     line-height: 1;
     font-family: 'Exo 2', sans-serif;
     margin-left: 150px;
-
 }
 
 .logo {
@@ -49,13 +48,19 @@ body {
 }
 
 .content {
+    width: 175px;
+    height: 28px;
     font-size: 28px;
     padding: 10px 0;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .content h1 {
-    font-size: 20px;
+    font-size: 28px;
+    color: white;
+    display: flex;
 }
 
 .content a {
@@ -63,30 +68,65 @@ body {
     color: #be1e2d;
     text-decoration: underline;
 }
-.video{
-    width: 570px;
-    height: 325px;
-    margin-left: auto;
-    margin-right: auto;
+
+.steam {
+
+}
+.yze_steam{
+    width: 200px;
     
+display: flex;
 }
-.video iframe{
-    width: 560px;
-    height: 315px;
+.yze_steam h1{
+    margin: 0;
+    margin-right: 10px;
 }
-.footer{
+
+.content_trailer {
+    display: table;
+    margin: 44px auto 1px;
+    border: 2px solid #be1e2d;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    box-sizing: border-box;
+    height: 62px;
+    padding: 18px 29px 0 59px;
+    position: relative;
+    width: 100px;
+}
+
+.content_trailer button {
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.content_trailer:before {
+    border-top: 10px solid transparent;
+    border-left: 16px solid #be1e2d;
+    border-bottom: 10px solid transparent;
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 23px;
+}
+.footer {
     padding-top: 50px;
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
     height: 300px;
 }
-.footer_block{
+
+.footer_block {
     margin: 0;
     padding: 0;
     border: 0;
 }
-.footer_block p{
+
+.footer_block p {
     margin-top: 11px;
     margin-right: 6px;
     vertical-align: top;
